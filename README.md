@@ -5,23 +5,25 @@
 本项目是一个基于泰坦尼克号乘客数据的数据分析项目，通过对乘客的各种特征进行分析，探索影响乘客生存率的因素。项目采用Python进行数据处理、清洗、特征工程和可视化分析。
 
 ## 项目结构
-Titanic_analysisfromchen/
-├── dataset/                    # 数据集文件夹
-│   ├── train.csv              # 训练数据集
-│   ├── test.csv               # 测试数据集
-│   ├── gender_submission.csv  # 性别提交样例
-│   ├── result.csv             # 处理后的结果数据
-│   └── train_chinese.csv      # 中文标题的训练数据
-├── results/                   # 结果文件夹
-│   ├── test_ave.csv          # 测试数据-平均值处理
-│   ├── test_clear.csv        # 测试数据-清洗后
-│   ├── test_fin.csv          # 测试数据-最终版本
-│   ├── test_pr.csv           # 测试数据-预处理
-│   └── train_chinese.csv     # 训练数据-中文版
-├── 数据观察.ipynb              # 数据探索性分析
-├── 数据清洗以及特征处理.ipynb    # 数据清洗和特征工程
-└── 数据可视化.ipynb            # 数据可视化分析
 
+### 数据集文件夹 (dataset/)
+- `train.csv` - 训练数据集
+- `test.csv` - 测试数据集  
+- `gender_submission.csv` - 性别提交样例
+- `result.csv` - 处理后的结果数据
+- `train_chinese.csv` - 中文标题的训练数据
+
+### 结果文件夹 (results/)
+- `test_ave.csv` - 测试数据-平均值处理
+- `test_clear.csv` - 测试数据-清洗后
+- `test_fin.csv` - 测试数据-最终版本
+- `test_pr.csv` - 测试数据-预处理
+- `train_chinese.csv` - 训练数据-中文版
+
+### Jupyter Notebook文件
+- `数据观察.ipynb` - 数据探索性分析
+- `数据清洗以及特征处理.ipynb` - 数据清洗和特征工程
+- `数据可视化.ipynb` - 数据可视化分析
 
 ## 数据集说明
 
